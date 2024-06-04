@@ -1,8 +1,7 @@
 {
-  "name": "@imgly/background-removal-node",
-  "version": "1.5.2",
+  "name": "background-remove",
+  "version": "1.5.0",
   "description": "Background Removal in NodeJS",
-  "resources": "@imgly/background-removal-node",
   "keywords": [
     "background-removal",
     "nodejs",
@@ -10,20 +9,6 @@
     "image-matting",
     "onnx"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/imgly/background-removal-js.git"
-  },
-  "license": "SEE LICENSE IN LICENSE.md",
-  "author": {
-    "name": "IMG.LY GmbH",
-    "email": "support@img.ly",
-    "url": "https://img.ly"
-  },
-  "bugs": {
-    "email": "support@img.ly"
-  },
-  "homepage": "https://img.ly/showcases/cesdk/web/background-removal",
   "source": "./src/index.ts",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
